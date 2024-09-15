@@ -1,0 +1,445 @@
+
+body {
+    background-color: #181818;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.kushal-nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #201e1e;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.kushal-logo {
+    display: flex;
+    align-content: center;
+    
+}
+
+.kushal-logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+
+.kushal-logo > h1 > span {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+
+.kushal-nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.kushal-nav > ul > li {
+    margin-left: 2rem;
+}
+
+.kushal-nav > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.kushal-nav > button {
+    font-family: monospace;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.kushal-nav > button:hover{
+    border-color: #3e8e41;
+}
+
+.Home-page-content{
+    display: flex;
+    margin: 2rem;
+}
+
+
+
+.Kushal-image-code img{
+    padding: 2rem;
+    size: 40cm;
+    border-radius: 30%;
+
+}
+
+
+.Kushal-details {
+    padding: 5rem;
+}
+
+.Kushal-details > .kushal-resume > a > button {
+    font-family: monospace;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding: 0.5rem 2.5rem;
+    margin: 0.5rem;
+}
+.Kushal-details > .kushal-resume > a > button:hover{
+    
+    border-color: #3e8e41
+}
+
+.kushal-description span{
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.kushal-description p{
+    font-family: monospace;
+}
+
+
+.Kushal-about > h1{
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.about-content{
+    display: flex;
+}
+
+.about-image-demo{
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2rem;
+    padding: 1rem 7rem;
+}
+
+.avtar-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1.5px solid #317232f7;
+    background-color: #15841829;
+}
+
+
+
+.avtar-name{
+    background-color: #15841829;
+    text-align: center;
+    
+    border-radius: 5px;
+   
+    border: 1.5px solid #317232f7;
+
+}
+
+.avtar-name > p{
+    margin: auto;
+}
+
+
+.avtar-social-link > a{
+    color: #f8f8f8;
+    /* background-color: #fff; */
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.2rem;
+
+}
+.avtar-social-link{
+    margin-top: 0.3rem;
+}
+
+
+
+
+.about-data{
+    margin: 2.5rem 4rem;
+}
+
+.about-header{
+    color: #4CAF50;
+    font-size: 1rem;
+    font-family: monospace;
+    margin: auto;
+
+}
+.about-header >h1{
+    margin: auto;
+}
+.about-header > p{
+    margin-top: auto;
+    font-size: 1rem;
+    font-weight:bolder;
+    font-family: monospace;
+
+}
+
+
+
+.skill-contant{
+    text-align: center;
+}
+
+.skill-body > h1 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.skill-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 8rem;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #333; */
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.skill img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.skill p{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.experience-content{
+    text-align: center;
+}
+
+
+.experience-body-data{
+    background-color: #282828;
+    border-radius: 10px;
+    margin: 2rem 10rem;
+    
+    
+}
+
+.experience-data{
+   
+    
+    align-items: center;
+   
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+
+}
+
+.experience-data-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.experience-data-two .experience-action{
+    margin: 0rem 1.5rem;
+    
+
+}
+
+
+.experience-action{
+    color: #4CAF50;
+}
+
+
+
+.experience-action .show-all-data:hover{
+    
+    cursor: pointer;
+
+}
+
+.experience-details{
+
+    padding: 0rem 1rem;
+    padding-bottom:1.5rem ;
+    display: none;
+}
+.experience-details .experience-location{
+    display: flex;
+    
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.experience-details .experience-description{
+    text-align: left;
+}
+
+.experience-details  .experience-skills{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.experience-location{
+    font-family: monospace;
+    font-size: small;
+}
+
+.experience-link a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0rem 1rem;
+    
+}
+.experience-skill{
+    padding-right: 0.8rem;
+    font-family: monospace;
+    font-size: small;
+}
+
+.experience-description p{
+    font-family: monospace;
+    font-size: x-small;
+
+}
+.experience-description h5{
+    margin-bottom: 0rem;
+}
+
+
+.experience-details-line{
+  width: 100%;
+  height: 1px;
+  background-color: #6c6a6a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
+
+.footer-data{
+    margin: 1rem 4rem;
+}
+
+.footer-contant{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contant-data{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    font-size:small;
+    font-weight: normal;
+    font-family: monospace;
+    margin-right: 1rem;
+}
+
+.footer-contant-data p{
+    padding-right: 1rem;
+
+}
+.footer-social-link a{
+    color: #fff;
+}
+
+.experience-body > h1 ,.experience-body> h2{
+    font-family: monospace;
+    color: #4CAF50;
+    margin: auto;
+}
+
+
+
+
+/* --------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+    .kushal-nav > ul {
+        display: none;
+    }
+    .kushal-nav{
+        justify-content: space-between;
+        
+    }
+    .Kushal-details{
+        padding: 1rem;
+    }
+
+    .about-image-demo{
+        margin: 0rem;
+    }
+    .about-data {
+        margin: 1.5rem 3rem;
+    }
+    .skill-data{
+        padding: 1rem 1rem
+    }
+    .footer-contant-data{
+        display: block;
+        margin: 0rem;
+        padding-left: 2rem;
+    } 
+
+    .experience-body-data{
+        margin: 1rem 2rem;
+    }
+
+    .kushal-nav > button {
+        padding: 0.5rem 1rem;
+    }
+
+    .kushal-description {
+        font-size: smaller;
+    }
+    .Kushal-details > .kushal-resume > a > button {
+        margin: 0rem;
+    }
+    .skill-body {
+        margin: 0rem 2rem;
+    }
+    .footer-data {
+        margin: 1rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .Kushal-image-code{
+        display: none;
+    }
+   .about-content{
+    display: block;
+   }
+    
+
+}
